@@ -27,7 +27,6 @@ config = {
     "virtualenv_path": 'venv',
     "virtualenv_python_dll": os.path.join(os.path.dirname(sys.executable), "python27.dll"),
     "find_links": [
-        "http://pypi.pvt.build.mozilla.org/pub",
         "http://pypi.pub.build.mozilla.org/pub",
     ],
     "pip_index": False,

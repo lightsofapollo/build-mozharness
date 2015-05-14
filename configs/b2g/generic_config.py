@@ -1,4 +1,4 @@
-# This is a config with generic releng related values 
+# This is a config with generic releng related values
 import os
 
 config = {
@@ -9,7 +9,6 @@ config = {
     },
 
     "find_links": [
-        "http://pypi.pvt.build.mozilla.org/pub",
         "http://pypi.pub.build.mozilla.org/pub",
     ],
     "pip_index": False,

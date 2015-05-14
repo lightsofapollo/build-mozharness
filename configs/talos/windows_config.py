@@ -13,7 +13,6 @@ config = {
     "virtualenv_python_dll": PYTHON_DLL,
     "pip_index": False,
     "find_links": [
-        "http://pypi.pvt.build.mozilla.org/pub",
         "http://pypi.pub.build.mozilla.org/pub",
     ],
     "use_talos_json": True,
